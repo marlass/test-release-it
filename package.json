@@ -30,8 +30,10 @@
     "ts-node": "^7.0.1",
     "typescript": "^3.2.2"
   },
-  "github": {
-    "release": true,
-    "releaseNotes": "npm run generate:release-notes -- --from ${latestVersion} --to ${version}"
+  "release-it": {
+    "github": {
+      "release": true,
+      "releaseNotes": "npm run generate:release-notes -- --from ${latestVersion} --to ${version}"
+    }
   }
 }
