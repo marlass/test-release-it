@@ -33,7 +33,7 @@
   "release-it": {
     "github": {
       "release": true,
-      "releaseNotes": "npm run generate:release-notes -- --from ${latestVersion} --to ${version}"
+      "releaseNotes": "npm run --silent generate:release-notes -- --from ${latestVersion} --to ${version}"
     }
   }
 }
