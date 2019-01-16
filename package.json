@@ -1,0 +1,23 @@
+{
+  "name": "test-release-it",
+  "version": "1.0.0",
+  "description": "Test release-it package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlass/test-release-it.git"
+  },
+  "author": "Marcin Lasak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marlass/test-release-it/issues"
+  },
+  "homepage": "https://github.com/marlass/test-release-it#readme",
+  "devDependencies": {
+    "release-it": "^9.8.1"
+  }
+}
