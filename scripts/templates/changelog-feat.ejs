@@ -10,7 +10,7 @@
   <td><%
   if (shortSha) {
     %>
-<a href="https://github.com/SAP/cloud-commerce-spartacus-storefront/commit/<%= hash %>"><img
+<a href="https://github.com/marlass/test-release-it/commit/<%= hash %>"><img
    align="top"
    title="Bug Fix" src="https://img.shields.io/badge/<%= shortSha %>-feat-blue.svg" />
 </a><%
@@ -28,8 +28,8 @@
         }
 
         const issue = reference.issue;
-        const owner = reference.owner || 'SAP';
-        const repository = reference.repository || 'cloud-commerce-spartacus-storefront';
+        const owner = reference.owner || 'marlass';
+        const repository = reference.repository || 'test-release-it';
         %>
 <a href="https://github.com/<%= owner %>/<%= repository %>/issues/<%= issue %>">
   [Closes #<%= issue %>]<br />
